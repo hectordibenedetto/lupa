@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lupa Deslizante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="img-container">
+            <img id="image" src="tu-imagen.jpg" alt="Imagen a ampliar">
+            <div id="zoom-lens"></div>
+        </div>
+        <div class="zoom-buttons">
+            <button onclick="setZoom(1)">1x</button>
+            <button onclick="setZoom(2)">2x</button>
+            <button onclick="setZoom(4)">4x</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
